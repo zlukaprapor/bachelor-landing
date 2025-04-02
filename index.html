@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Лендінг для представлення бакалаврської роботи">
-    <meta name="keywords" content="бакалаврська робота, наука, дослідження, університет">
+    <meta name="description" content="Бакалаврська робота - короткий опис дослідження">
+    <meta name="keywords" content="бакалаврська робота, дослідження, університет">
     <meta name="author" content="Ваше Ім'я">
 
     <title>Бакалаврська робота</title>
@@ -12,123 +12,82 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <img src="assets/logo.png" alt="Логотип університету">
-    <img src="assets/diagram.jpg" alt="Діаграма результатів дослідження">
-    <!-- Open Graph теги -->
+
+    <!-- Open Graph -->
     <meta property="og:title" content="Бакалаврська робота">
     <meta property="og:description" content="Лендінг для представлення бакалаврської роботи">
     <meta property="og:image" content="assets/preview.jpg">
     <meta property="og:url" content="https://yourgithubusername.github.io/bachelor-landing">
-
-    <link rel="sitemap" type="application/xml" href="sitemap.xml">
-    <meta name="robots" content="index, follow">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "ScholarlyArticle",
-            "name": "Назва бакалаврської роботи",
+            "name": "Вебдодаток “Лісова абетка”",
             "author": {
                 "@type": "Person",
-                "name": "Ваше Ім'я"
+                "name": "Oleksii Tkachenko"
             },
             "datePublished": "2025-04-01",
             "publisher": {
                 "@type": "Organization",
-                "name": "Ваш Університет"
+                "name": "SMDU"
             }
         }
     </script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #0073e6;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background-color: #005bb5;
-            padding: 10px;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #0073e6;
-            color: white;
-        }
-        @media (max-width: 768px) {
-            main {
-                margin: 10px;
-                padding: 15px;
-            }
-        }
-    </style>
 </head>
 <body>
-<header role="banner">
-    <h1>Назва бакалаврської роботи</h1>
-    <p>Короткий опис (до 300 символів)</p>
-    <nav role="navigation">
-        <ul>
-            <li><a href="#about" aria-label="Про дослідження">Про дослідження</a></li>
-            <li><a href="#methodology" aria-label="Методологія">Методологія</a></li>
-            <li><a href="#results" aria-label="Очікувані результати">Очікувані результати</a></li>
-            <li><a href="#contacts" aria-label="Контакти">Контакти</a></li>
-        </ul>
-    </nav>
+<header>
+    <img src="assets/logo-sumdu.svg" alt="Логотип університету" width="150">
+    <h1>Вебдодаток “Лісова абетка”</h1>
+    <p class="justified-text">У сучасному світі, де новітні технології все більше інтегруються в різні сфери життя, включаючи освіту, використання веб-додатків для навчання дітей стає важливою тенденцією. Веб-додаток "Лісова абетка: Рукавичка" створений з метою допомогти дітям у вивченні абетки української мови у цікавій та інтерактивній формі. Він базується на популярній українській казці "Рукавичка", що відома своєю здатністю залучати дітей завдяки яскравим персонажам та захоплюючому сюжету. Інтеграція елементів гри та навчання сприяє розвитку не лише мовних навичок, а й загальної ерудиції, логічного мислення та пам'яті</p>
 </header>
 
-<main role="main">
-    <section id="about" aria-labelledby="about-title">
-        <h2 id="about-title">Про дослідження</h2>
-        <p>Опис актуальності теми, мета та завдання.</p>
+<nav>
+    <ul>
+        <li><a href="#relevance">Актуальність</a></li>
+        <li><a href="#goal-tasks">Мета та завдання</a></li>
+        <li><a href="#methodology">Методологія</a></li>
+        <li><a href="#results">Очікувані результати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="relevance">
+        <h2>Актуальність теми</h2>
+        <p>Дослідження важливої проблематики та її значення для наукової спільноти.</p>
     </section>
 
-    <section id="methodology" aria-labelledby="methodology-title">
-        <h2 id="methodology-title">Методологія</h2>
-        <p>Короткий опис методів дослідження.</p>
+    <section id="goal-tasks">
+        <h2>Мета та завдання</h2>
+        <p><strong>Мета:</strong> Чітке формулювання основної цілі роботи.</p>
+        <ul>
+            <li>Завдання 1: Аналіз існуючих підходів</li>
+            <li>Завдання 2: Розробка методики</li>
+            <li>Завдання 3: Тестування на реальних даних</li>
+            <li>Завдання 4: Оцінка ефективності</li>
+        </ul>
     </section>
 
-    <section id="results" aria-labelledby="results-title">
-        <h2 id="results-title">Очікувані результати</h2>
-        <p>Що передбачається отримати за підсумком роботи.</p>
+    <section id="methodology">
+        <h2>Методологія дослідження</h2>
+        <p>Короткий опис використаних методів та інструментів.</p>
+    </section>
+
+    <section id="results">
+        <h2>Очікувані результати</h2>
+        <p>Що передбачається отримати після завершення дослідження.</p>
+        <img src="img/abc.png" alt="Графічне представлення результатів" width="100%">
     </section>
 </main>
 
-<footer id="contacts" role="contentinfo">
-    <p>Контактна інформація: <a href="mailto:email@example.com">email@example.com</a></p>
+<footer id="contacts">
+    <h2>Контактна інформація</h2>
+    <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+    <p><a href="full-paper.pdf" download>Завантажити повний текст роботи</a></p>
 </footer>
+
 </body>
 </html>
